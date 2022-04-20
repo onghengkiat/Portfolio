@@ -8,6 +8,7 @@ import {
 
 // TODO: Add animation to hide the navbar as scrolling down 
 // TODO: Improve the way of setting active tab
+// TODO: Makes it to be more responsive
 
 export default function Navbar({ active }) {
   return(

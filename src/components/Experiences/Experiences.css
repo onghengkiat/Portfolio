@@ -1,0 +1,304 @@
+.pageWrapper {
+    height: 100%;
+}
+
+#experiencesPageWrapper {
+    background: linear-gradient(55deg,#4E75B9 30%,#5CBF98 90%);
+    height: auto;
+    padding-bottom: 50px;
+}
+
+#experiencesPageHeader {
+    background: transparent;
+    color: white;
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+
+#experiencesPageHeader h1 {
+    margin-bottom: 20px
+}
+
+
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background: #00ccff;
+    z-index: 5;
+
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: -25px;
+}
+  
+.timeline {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.timeline:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: '';
+    width: 4px;
+    margin-left: -2px;
+    height: 100%;
+    background: rgb(205, 205, 205);
+    z-index: 3;
+}
+  
+.timelineItem {
+    padding: 30px 0;
+}
+  
+.directionLeft,
+.directionRight {
+    text-align: center;
+}
+  
+.flagWrapper {
+    text-align: center;
+    position: relative;
+}
+  
+.flag {
+    position: relative;
+    display: inline;
+    background: rgb(255,255,255);
+    font-weight: bolder;
+    z-index: 8;
+    padding: 6px 10px;
+    text-align: center;
+    border-radius: 5px;
+
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+.directionLeft .flag:after,
+.directionRight .flag:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    margin-left: -8px;
+    border: solid transparent;
+    border-bottom-color: rgb(255,255,255);
+    border-width: 8px;
+}
+
+.description {
+    position: relative;
+    width: 80%;
+    background: rgb(254,254,254);
+    z-index: 5;
+    margin: 1em auto 0 auto;
+    padding: 1em;
+    color:rgb(40, 40, 40);
+    text-align: left;
+
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.descriptionTitle {
+    padding: 5px 0;
+    margin-left: 10px;
+
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    background-color: transparent;
+}
+
+.descriptionTitle svg {
+    vertical-align: text-top;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.descriptionTitleOrganization {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.descriptionTitleDate {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.descriptionContents {
+    margin: 0 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.descriptionContents li:before {
+    color: #000;
+    content: "\27bd \0020";
+}
+
+.skills {
+    font-size: 13px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.skills li {
+    background: #008adf;
+    padding: 3px 10px;
+    margin: 3px;
+    
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+
+/* Change the timeline to become left and right */
+@media(min-width: 800px){
+    .timeline {
+        width: calc(100vw - 100px);
+        left: 50px;
+    }
+  
+    /* Create vertical spaces between the different timeline items */
+    .timeline li:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    /* Adjust the position of the circles to the center */
+    .timeline .circle {
+        left: -28px;
+        right: auto;
+        top: 2px;
+    }
+    
+  
+    .timeline .directionLeft .circle {
+        left: auto;
+        right: -28px;
+    }
+    
+    .flagWrapper {
+        display: inline-block;
+    }
+      
+    .flag {
+        font-size: 18px;
+    }
+
+    .directionLeft {
+        width: calc((100vw - 140px)/2);
+        position: relative;
+        float: left;
+        text-align: right;
+    }
+  
+    .directionRight {
+        width: calc((100vw - 140px)/2);
+        position: relative;
+        float: right;
+        text-align: left;
+    }
+  
+    /* Change the directions of where the flag pointing to */
+    .directionLeft .flag:after {
+        left: auto;
+        right: -16px;
+        top: 50%;
+        margin-top: -8px;
+        border: solid transparent;
+        border-left-color: white;
+        border-width: 8px;
+    }
+  
+    .directionRight .flag:after {
+        left: -8px;
+        top: 50%;
+        margin-top: -8px;
+        border: solid transparent;
+        border-right-color: white;
+        border-width: 8px;
+    }
+
+    /* Adjust the position of the description boxes */
+    .directionLeft .description {
+        margin: 1em 0 0 auto;
+    }
+
+    .directionRight .description {
+        margin: 1em auto 0 0;
+    }
+}
+  

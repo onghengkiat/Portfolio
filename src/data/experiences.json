@@ -1,0 +1,89 @@
+[
+    {
+        "designation": "Backend Developer",
+        "organization": "Memosa",
+        "date": "Sep 2020 - Mar 2021",
+        "descriptions": [
+            "Manage the SQL database by using PostgreSQL",
+            "Implement, deploy and maintain the backend for the website by using Flask in Python",
+            "Manage the microservices architecture of the website by using Docker",
+            "Develop the load balancer for the website by using Nginx",
+            "Create a websocket funtionality for chat module by using Golang",
+            "Write bash scripts that monitor the status of the docker containers"
+        ], 
+        "skills": [
+            "Python", "Flask", "Nginx", "Docker", "Bash", "Golang", "PostgreSQL"
+        ]
+    },
+    {
+        "designation": "Teaching Assistant",
+        "organization": "University of Malaya (UM)",
+        "date": "Oct 2020 - Jan 2021",
+        "descriptions": [
+            "Handle the lab session for the course, Fundamentals of Programming (WIX1002) Session 2020/2021 Semester 1",
+            "Design the assignment question and evaluate the submissions from the students",
+            "Introduce the students about the basics knowledge of programming by using Java as the programming language for practical sessions",
+            "Share the experiences in using JavaFX to develop the graphic user interface (GUI) for assignment of this subject"
+        ], 
+        "skills": [
+            "Java", "JavaFX", "Github"
+        ]
+    },
+    {
+        "designation": "Developer",
+        "organization": "MIMOS",
+        "date": "Mar 2021 - Dec 2021",
+        "descriptions": [
+            "Modify the codes of Apache Superset to integrate with Apache Echarts and Highcharts for more variety of visualizations",
+            "Develop authentication timeout and prevention of concurrent login on Apache Superset",
+            "Assist in the development of a vaccination dashboard that was shown to the Prime Minister to monitor the vaccination progress in Malaysia",
+            "Develop the log parsers for Nginx, Gunicorn, CheckMK, Linux, PostgreSQL, Redis and Haproxy logs",
+            "Design and build the dashboard on Apache Superset for log analysis",
+            "Write python scripts to perform data validation"
+        ], 
+        "skills": [
+            "Python", "Apache Superset", "Echart", "Highcharts"
+        ]
+    },
+    {
+        "designation": "Panasonic",
+        "organization": "Developer",
+        "date": "Apr 2021 - Dec 2021",
+        "descriptions": [
+            "Develop a dashboard to monitor the overall equipment effectiveness (OEE) of the assembly lines at the factory",
+            "Design the Extract, Transform, Load (ETL) pipeline to extract the data from the machines",
+            "Design and manage a normalized database for the application",
+            "Deploy and maintain the server on Amazon Web Service (AWS)"
+        ], 
+        "skills": [
+            "Python", "DynamoDB", "Amazon EC2", "AWS Lambda", "PostgreSQL", "React", "Nginx", "Docker"
+        ]
+    },
+    {
+        "designation": "Backend Developer",
+        "organization": "Memosa",
+        "date": "Aug 2021 - Apr 2022",
+        "descriptions": [
+            "Enhance the existing website by adding more features",
+            "Maintain the website"
+        ], 
+        "skills": [
+            "Python", "Flask", "Nginx", "Docker", "Bash", "Golang", "PostgreSQL"
+        ]
+    },
+    {
+        "designation": "Intern",
+        "organization": "Center of Applied Data Science (CADS)",
+        "date": "Feb 2022 - Jul 2022",
+        "descriptions": [
+            "Perform User Acceptance Testing on the CADS platforms",
+            "Conduct a Data Science Project about the complaints priority prediction",
+            "Work as a training assistant to help in conducting the training courses",
+            "Write documentations to guide the users of the platforms",
+            "Implement automated testing script for the platforms by using Cypress"
+        ], 
+        "skills": [
+            "Cypress", "Python", "Flask", "React", "Echart", "Trello"
+        ]
+    }
+]

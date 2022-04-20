@@ -4,6 +4,7 @@ import './App.css';
 
 import Navbar from '../Navbar/Navbar';
 import Home from '../Home/Home';
+import Experiences from '../Experiences/Experiences';
 
 function App() {
     const [active, setActive] = useState(null);
@@ -13,6 +14,7 @@ function App() {
             <Navbar active={active}/>
             <Routes>
                 <Route path="/" element={<Home setActive={setActive}/>}/>
+                <Route path="/experiences" element={<Experiences setActive={setActive}/>}/>
             </Routes>
         </BrowserRouter>
     );
