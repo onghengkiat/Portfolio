@@ -3,6 +3,10 @@ import './Home.css'
 
 // TODO: Search for a better image as the background image
 // TODO: Redesign the texts after getting the better image
+// TODO: Add contact info
+// TODO: Add academic background
+// TODO: Add languages, skills and technologies
+// TODO: Download resume
 
 export default function Home({ setActive }) {
 

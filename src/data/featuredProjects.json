@@ -1,0 +1,30 @@
+[
+    {
+        "name": "SA Visualization",
+        "imagePath": "sa-visualization.png",
+        "description": "A simple web application to visualize how different types of sorting algorithms work.",
+        "githubUrl": "https://github.com/onghengkiat/SA-Visualization",
+        "websiteUrl": "https://sa-visualization.herokuapp.com/",
+        "skills": [
+            "Javascript",
+            "CSS",
+            "HTML",
+            "Heroku"
+        ]
+    },
+    {
+        "name": "FOREX Analysis",
+        "imagePath": "currencyRatePrediction.png",
+        "description": "A web application made to perform the analysis about currency exchange rate. Granular access control is implemented on the system. The operations of what users could do include view dataset, understand model performance and visualize the dashboard.",
+        "githubUrl": "https://github.com/onghengkiat/CurrencyRatePrediction",
+        "websiteUrl": "https://currency-exchange-rate-fe.herokuapp.com/",
+        "skills": [
+            "React",
+            "Echart",
+            "Python",
+            "Flask",
+            "Heroku",
+            "Machine Learning (Regression)"
+        ]
+    }
+]

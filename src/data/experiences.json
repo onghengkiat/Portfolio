@@ -46,8 +46,8 @@
         ]
     },
     {
-        "designation": "Panasonic",
-        "organization": "Developer",
+        "designation": "Developer",
+        "organization": "Panasonic",
         "date": "Apr 2021 - Dec 2021",
         "descriptions": [
             "Develop a dashboard to monitor the overall equipment effectiveness (OEE) of the assembly lines at the factory",

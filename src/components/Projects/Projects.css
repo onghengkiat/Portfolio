@@ -1,0 +1,158 @@
+.pageWrapper {
+    height: 100%;
+}
+
+#projectsPageWrapper {
+    
+    height: auto;
+    padding-bottom: 50px;
+}
+
+/* Featured Projects */
+
+.projectsHeader {
+    background: transparent;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.projects {
+    background: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+}
+
+.project {
+    padding: 0 30px 200px 30px;
+}
+
+.projectImage {
+    width: 100%;
+    height: auto;
+}
+
+.projectName {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+}
+
+.projectName a { color: inherit; } 
+
+.projectName svg {
+    vertical-align: text-top;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.projectName svg:hover {
+    cursor: pointer;
+}
+
+.projectDescription {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.projectSkills {
+    font-size: 13px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.projectSkills li {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3px 10px;
+    margin: 3px;
+    
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+/* Other Projects */
+.projectCardsHeader {
+
+}
+
+.projectCard {
+
+}
+
+.projectCardName {
+
+}
+
+.projectCardDescription {
+    
+}
+
+@media(min-width: 800px){
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: -1;
+    }
+
+    .projectName {
+        margin-top: 0;
+    }
+
+    .projectContent, .projectImageContainer {
+        width: calc((100vw - 50px)/2);
+    }
+
+    .projectContent {
+        z-index: 1;
+    }
+
+    .projectRightDirection .projectName svg {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .projectRightDirection .projectContent {
+        transform: translate(-25%, 10%);
+        text-align: right;
+    }
+
+    .projectLeftDirection .projectContent {
+        transform: translate(-75%, 10%);
+        text-align: left;
+    }
+
+    .projectRightDirection .projectImageContainer {
+        transform: translate(25%, -10%);
+    }
+
+    .projectLeftDirection .projectImageContainer {
+        width: calc((100vw - 50px)/2);
+        transform: translate(75%, -10%);
+    }
+
+    .projectRightDirection .projectName {
+        text-align: right;
+    }
+
+    .projectLeftDirection .projectName {
+        text-align: left;
+    }
+
+    .projectRightDirection .projectSkills {
+        justify-content: right;
+    }
+
+    .projectLeftDirection .projectSkills {
+        justify-content: left;
+    }
+}
+
