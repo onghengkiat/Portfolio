@@ -35,6 +35,8 @@
     text-align: center;
     margin-bottom: 20px;
     background-color: transparent;
+
+    font-family: Georgia, serif;
     font-size: 24px;
     font-weight: bolder;
     color: white;
@@ -53,6 +55,7 @@
 }
 
 .projectDescription {
+    font-family: Verdana, sans-serif;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
@@ -81,26 +84,124 @@
 
 /* Other Projects */
 .projectCardsHeader {
+    text-align: center;
+    margin: 70px 70px 30px 70px;
+}
 
+.projectCards {
+    display: grid;
+    gap: 30px;
+    margin: 20px 70px 50px 70px;
+    padding: 0px;
+    grid-template-columns: 1fr;
+    list-style-type: none;
+}
+
+.projectCards svg {
+    vertical-align: text-top;
+    display: inline-block;
+    margin-left: 10px;
+    color: black;
+}
+
+.projectCards svg:hover {
+    cursor: pointer;
 }
 
 .projectCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 30px;
+    border-radius: 5px;
+    
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+}
 
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 .projectCardName {
-
+    font-family: Georgia, serif;
+    border-bottom: 2px solid rgb(215, 215, 215, 0.7);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .projectCardDescription {
-    
+    font-family: Verdana, sans-serif;
+}
+
+
+.projectCardSkills {
+    font-size: 13px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.projectCardSkills li {
+    background: #dce1e7;
+    padding: 3px 10px;
+    margin: 3px;
+    border-radius: 10px;
+
+    font-weight: 500;
+    color: #4a5568;
+    text-align: center;
+}
+
+.otherProjectButtonBlock {
+    text-align: center;
+}
+
+.viewMoreProjectButton {
+    background-color:#0a0a23;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+
+    border:none;
+    border-radius:10px;
 }
 
 @media(min-width: 800px){
+    /* Featured projects */
     .project {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column: -1;
     }
 
     .projectName {
@@ -154,5 +255,17 @@
     .projectLeftDirection .projectSkills {
         justify-content: left;
     }
+
+    /* Other Projects */
+    .projectCards {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
+@media(min-width: 1200px) {
+    /* Other Projects */
+    .projectCards {
+
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

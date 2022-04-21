@@ -1,0 +1,108 @@
+[
+    {
+        "name": "My Profile (Old)",
+        "description": "It is a simple portfolio website created during my free time to mainly play around with bootstrap, HTML, CSS and Javascript.",
+        "githubUrl": "https://github.com/onghengkiat/CurrencyRatePrediction",
+        "websiteUrl": "https://onghengkiatV1.herokuapp.com/",
+        "skills": [
+            "Golang",
+            "Javascript",
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "Docker"
+        ]
+    },
+    {
+        "name": "Employment Rate Analysis",
+        "description": "It is a project to build a shiny webapp by using R which includes the functionalities to perform exploratory analysis and predictive analysis on the dataset. The completion of the project is to fullfill the requirement of the assignment for the course in my university which is WIE2003 Introduction to Data Science.",
+        "githubUrl": "https://github.com/onghengkiat/EmploymentRateAnalysis",
+        "websiteUrl": "https://onghengkiat.shinyapps.io/employment_rate_analysis_webapp/",
+        "skills": [
+            "R",
+            "Shiny",
+            "R Markdown",
+            "Machine Learning (Classification)"
+        ]
+    },
+    {
+        "name": "Sentiment Analysis",
+        "description": "This project is about classifiying whether the sentences provided are having negative, neural or positive sentiments. It is a case study about the social media postings for the course in my university which is WIA2001 Data Analytics.",
+        "githubUrl": "https://github.com/onghengkiat/SentimentAnalysis",
+        "websiteUrl": null,
+        "skills": [
+            "Python",
+            "Machine Learning (Classification)"
+        ]
+    },
+    {
+        "name": "Face Mask Detection",
+        "description": "This project is about classifiying whether or not the person(s) inside the images are wearing a mask or not. It is a project for the course in my university which is WIX3001 Soft Computing.",
+        "githubUrl": "https://github.com/onghengkiat/FaceMaskDetection",
+        "websiteUrl": null,
+        "skills": [
+            "Python",
+            "Machine Learning (Face Detection)",
+            "Machine Learning (Classification)"
+        ]
+    },
+    {
+        "name": "Voice Emotion Recognition",
+        "description": "This project is to build a model to recognize the emotion from the voice of different authors. It is an assignment for the course in my university which is WID3006 Machine Learning.",
+        "githubUrl": "https://github.com/onghengkiat/VoiceEmotionRecognition",
+        "websiteUrl": null,
+        "skills": [
+            "Python",
+            "Machine Learning (Classification)"
+        ]
+    },
+    {
+        "name": "Automated Class Attendance",
+        "description": "It is a mini project built by using Selenium to automate the process of signing class attendance of my university. Doing this just to practice on using Selenium, I am still attending the classes.",
+        "githubUrl": "https://github.com/onghengkiat/AutomatedClassAttendance",
+        "websiteUrl": null,
+        "skills": [
+            "Python",
+            "Selenium"
+        ]
+    },
+    {
+        "name": "Kangaroo Simulator",
+        "description": "It is a project to build a simulator that simulates the kangaroos' behaviour in the wildlife according to the problem requirements given. It is built for the group assignment of the course in my university which is WIA1002 Data Structure. I mainly in charge of the backend in this project.",
+        "githubUrl": "https://github.com/onghengkiat/KangarooSimulator",
+        "websiteUrl": null,
+        "skills": [
+            "Java",
+            "JavaFX",
+            "FXML",
+            "MySQL"
+        ]
+    },
+    {
+        "name": "Monopoly RPG",
+        "description": "It is a project to build a game that combines the elements of monopoly and RPG together according. It is just a mini project that is built in my free time to have fun with coding. The graphic user interface is not implemented yet, the game is running on the console.",
+        "githubUrl": "https://github.com/onghengkiat/MonopolyRPG",
+        "websiteUrl": null,
+        "skills": [
+            "Java"
+        ]
+    },
+    {
+        "name": "Sem 1 - Fundamentals of Programming",
+        "description": "A repository that contains my solutions of lab, tutorial and past year questions for one of my university subject which is WIX1002 Fundamentals of Programming.",
+        "githubUrl": "https://github.com/onghengkiat/Sem1-FOP",
+        "websiteUrl": null,
+        "skills": [
+            "Java"
+        ]
+    },
+    {
+        "name": "Sem 2 - Data Structure",
+        "description": "A repository that contains my solutions of lab, tutorial and past year questions for one of my university subject which is WIA1002 Data Structure.",
+        "githubUrl": "https://github.com/onghengkiat/Sem2-DS",
+        "websiteUrl": null,
+        "skills": [
+            "Java"
+        ]
+    }
+]

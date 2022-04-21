@@ -201,7 +201,7 @@
     content: "\27bd \0020";
 }
 
-.skills {
+.experienceSkills {
     font-size: 13px;
     padding: 0;
     margin-top: 15px;
@@ -212,10 +212,11 @@
     list-style-type: none;
 }
 
-.skills li {
+.experienceSkills li {
     background: #008adf;
     padding: 3px 10px;
     margin: 3px;
+    border-radius: 10px;
     
     font-weight: 500;
     color: white;

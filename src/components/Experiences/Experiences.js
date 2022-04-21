@@ -52,7 +52,7 @@ export default function Experiences({ setActive }) {
                                             item.descriptions.map((description, index_) => <li key={`description${index}`}>{description}</li>)
                                         }
                                     </ul>
-                                    <ul className="skills">
+                                    <ul className="experienceSkills">
                                         {
                                             item.skills.map((skill, _) => <li key={skill}>{skill}</li>)
                                         }
