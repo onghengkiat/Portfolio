@@ -9,7 +9,8 @@
             "Manage the microservices architecture of the website by using Docker",
             "Develop the load balancer for the website by using Nginx",
             "Create a websocket funtionality for chat module by using Golang",
-            "Write bash scripts that monitor the status of the docker containers"
+            "Write bash scripts that monitor the status of the docker containers",
+            "Write testing scripts and documentations for the backend APIs"
         ], 
         "skills": [
             "Python", "Flask", "Nginx", "Docker", "Bash", "Golang", "PostgreSQL"
@@ -38,7 +39,7 @@
             "Develop authentication timeout and prevention of concurrent login on Apache Superset",
             "Assist in the development of a vaccination dashboard that was shown to the Prime Minister to monitor the vaccination progress in Malaysia",
             "Develop the log parsers for Nginx, Gunicorn, CheckMK, Linux, PostgreSQL, Redis and Haproxy logs",
-            "Design and build the dashboard on Apache Superset for log analysis",
+            "Design and build the dashboards on Apache Superset for log analysis",
             "Write python scripts to perform data validation"
         ], 
         "skills": [
@@ -65,6 +66,8 @@
         "date": "Aug 2021 - Apr 2022",
         "descriptions": [
             "Enhance the existing website by adding more features",
+            "Refactor the existing codes to adapt with better coding practices",
+            "Write testing scripts and documentations for the backend APIs",
             "Maintain the website"
         ], 
         "skills": [
