@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Programming League 2020 (Closed Category)",
+        "date": "6th June 2020",
+        "organizer": "Computer Society of Universiti Malaya (PEKOM)",
+        "award": "1st Place",
+        "imageUrl": "programmingLeague2020.png",
+        "description": "The Programming League is an annual nationwide competitive programming competition held by the Computer Society of Universiti Malaya (PEKOM) starting from 2014 where teams of 3 will compete to solve algorithmic problems in the given time. In the closed category which I have joined, it only involves the participants from first year students of the Faculty of Computer Science and Information Technology (FCSIT) in University of Malaya (UM). It was indeed a fun challenge for me to make use of the different algorithms and logical thinking skill to solve the problems in the competition. Getting along with my best teammates makes the dream happened, we have won the championship in the competition."
+    },
+    {
+        "name": "Programming League 2021 (Open Category)",
+        "date": "22th May 2021",
+        "organizer": "Computer Society of Universiti Malaya (PEKOM)",
+        "award": "1st Place",
+        "imageUrl": "programmingLeague2021.png",
+        "description": "The Programming League is an annual nationwide competitive programming competition held by the Computer Society of Universiti Malaya (PEKOM) starting from 2014 where teams of 3 will compete to solve algorithmic problems in the given time. It was the second time I participated in this competition, but I was in the open category this time. In the previous years, open category was supposed to be opened for all students including those who are not in University of Malaya (UM). Unfortunately, the COVID-19 pandemic made it to be only available to all UM students in this year. Nevertheless, I was still having fun in participating the competition. Once again, had to thank both of my teammates, I could win the championship only because I had them together with me."
+    },
+    {
+        "name": "Microsoft Certified: Azure AI Fundamentals",
+        "date": "17th April 2021",
+        "organizer": "Microsoft",
+        "award": "Completed",
+        "imageUrl": "Azure AI Fundamentals.png",
+        "description": "It is the certificate provided by Microsoft upon the completion of the Azure AI Fundamentals certified exam. It validates the basic knowledges of machine learning and artificial intelligence concepts as well as the related Azure services."
+    },
+    {
+        "name": "Microsoft Certified: Azure Data Fundamentals",
+        "date": "2nd May 2021",
+        "organizer": "Microsoft",
+        "award": "Completed",
+        "imageUrl": "Azure Data Fundamentals.png",
+        "description": "It is the certificate provided by Microsoft upon the completion of the Azure Data Fundamentals certified exam. It validates the basic knowledges of core data concepts and the related Azure services."
+    },
+    {
+        "name": "Excel for Analytics & Data Visualization for Business Intelligence (PowerBI)",
+        "date": "31st March 2021 - 1st April 2022",
+        "organizer": "Center of Applied Data Science (CADS)",
+        "award": "Completed",
+        "imageUrl": "CADS Excel and Visualization.png",
+        "description": "It is the certificate provided by CADS after participating the 2 days training which involves 2 different courses. On the 1st day of the training, it was the Excel for Analytics course which covers the strategy and hands-on activity of assessing data distributions and statistical relationship with Microsoft Excel. Data Visualization for Business Intelligence (PowerBI) was conducted on the 2nd day of the training, the scope of the course includes creating descriptive analytic charts in PowerBI, introducing the visualization techniques and designing dashboards for different audiences and purposes. "
+    }
+]

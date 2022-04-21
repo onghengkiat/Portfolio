@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import Home from '../Home/Home';
 import Experiences from '../Experiences/Experiences';
 import Projects from '../Projects/Projects';
+import Awards from '../Awards/Awards';
 
 function App() {
     const [active, setActive] = useState(null);
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/" element={<Home setActive={setActive}/>}/>
                 <Route path="/experiences" element={<Experiences setActive={setActive}/>}/>
                 <Route path="/projects" element={<Projects setActive={setActive}/>}/>
+                <Route path="/awards" element={<Awards setActive={setActive}/>}/>
             </Routes>
         </BrowserRouter>
     );

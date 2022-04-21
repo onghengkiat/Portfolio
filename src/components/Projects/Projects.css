@@ -1,9 +1,8 @@
 .pageWrapper {
-    height: 100%;
+    min-height: 100%;
 }
 
 #projectsPageWrapper {
-    
     height: auto;
     padding-bottom: 50px;
 }
