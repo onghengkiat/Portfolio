@@ -6,5 +6,13 @@
         "date": "Sep 2019 - Feb 2023",
         "location": "Kuala Lumpur, Malaysia",
         "description": "I have learnt about the fundamentals of programming, data structures and database managements. The course also helps in understanding the fundamentals of machine learning, data science process and the trends of data science. In the course, I have conduct multiple Data Science projects involving the data processing, model development and model evaluation. I also gain a brief understanding on the concepts of data visualization, big data analytic, and data mining throughout the course. I am currently still completing the course, and maintaining CGPA of 3.99."
+    },
+    {
+        "institute": "Kolej Matrikulasi Pulau Pinang (KMPP)",
+        "imageUrl": "homePage/KMPP.jpg",
+        "title": "Module 1 (Science Stream)",
+        "date": "2018 - 2019",
+        "location": "Penang, Malaysia",
+        "description": "The course consists of 4 main subjects which are mathematics, chemistry, physics and biology. There are also some other subjects which are not considered in the final results which are english and general studies. I also have taken the Malaysian University English Test (MUET) in the course and scored band 4 in the test. I have completed the course with CGPA of 4.00."
     }
 ]

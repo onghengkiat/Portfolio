@@ -54,7 +54,6 @@
 }
 
 .educationHeader {
-    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -63,13 +62,17 @@
     padding: 20px;
 }
 
+.education {
+    margin: 50px 0;
+}
+
 .educationImageContainer {
     text-align: center;
 }
 
 .educationImage {
-    height: 200px;
-    width: auto;
+    width: 200px;
+    height: auto;
 }
 
 .educationContent {
