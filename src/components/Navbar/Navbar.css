@@ -1,4 +1,4 @@
-#navbar {
+.navbar {
     position: fixed;
     top: 0;
     z-index: 10;
@@ -16,33 +16,60 @@
     justify-content: space-evenly;
 }
 
-#navbar li {
+.navbarItem {
     float: left;
     width: 20%;
     color: white;
 }
 
-#navbar li a {
+.navbarItem a, .navbarCollapse a{
     text-align: center;
     text-decoration: none;
     display: block;
-    color: white;
+    color: inherit;
     padding: 12px;
     font-size: 18px;
 }
 
-#navbar li a svg {
+.navbarItem svg, .navbarCollapse svg {
     vertical-align: text-top;
-    display: inline-block;
     margin-right: 5px;
     font-size: 20px;
 }
 
-#navbar li a:hover, #navbar li a:focus-visible{
+.navbarItem a:hover, .navbarItem a:focus-visible, .navbarCollapse a:hover, .navbarCollapse a:focus-visible{
     background-color: rgba(90, 90, 90, 0.5);
     outline: none;
 }
 
-#navbar li a.active {
+.navbarItem.active {
     background-color: rgba(200, 200, 200, 0.5);
+}
+
+.navbarCollapse {
+    display: none;
+    cursor: pointer;
+}
+
+/* Collapse the navbar */
+@media(max-width: 800px) {
+    .navbarItem {
+        display: none;
+    }
+
+    .navbarCollapse {
+        display: block;
+        color: white;
+        width: 100%;
+    }
+    
+    .menuOpened.navbar{
+        display: block;
+    }
+
+    .menuOpened .navbarItem {
+        display: block;
+        float: none;
+        width: 100%;
+    }
 }

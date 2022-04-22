@@ -1,26 +1,35 @@
-import './Navbar.css'
+import React, { useEffect, useState } from 'react';
+import './Navbar.css';
 import { 
   AiFillIdcard,
   AiFillProfile,
   AiFillSchedule,
-} from 'react-icons/ai'
-
+} from 'react-icons/ai';
 
 import {
   BsAwardFill,
-} from 'react-icons/bs'
+} from 'react-icons/bs';
+
+import {
+  FaBars,
+} from 'react-icons/fa';
 
 // TODO: Add animation to hide the navbar as scrolling down 
-// TODO: Improve the way of setting active tab
-// TODO: Makes it to be more responsive
 
 export default function Navbar({ active }) {
+  const [menuOpened, setMenuOpened] = useState(false);
+
+  const toggleNavBarMenu = () => {
+    setMenuOpened(!menuOpened);
+  }
+
   return(
-    <ul id="navbar">
-        <li><a href="/" className={active === 0 ? "active" : ""}> <AiFillIdcard /> About Me</a></li>
-        <li><a href="/experiences" className={active === 1 ? "active" : ""}> < AiFillProfile/> Experiences</a></li>
-        <li><a href="/projects" className={active === 2 ? "active" : ""}> <AiFillSchedule /> Projects</a></li>
-        <li><a href="/awards" className={active === 3 ? "active" : ""}> <BsAwardFill /> Awards</a></li>
+    <ul className={ menuOpened ? "navbar menuOpened": "navbar" }>
+        <li className="navbarCollapse" onClick={toggleNavBarMenu}><a><FaBars/></a></li>
+        <li className={active === 0 ? "navbarItem active" : "navbarItem"}><a href="/"> <AiFillIdcard /> About Me</a></li>
+        <li className={active === 1 ? "navbarItem active" : "navbarItem"}><a href="/experiences"> < AiFillProfile/> Experiences</a></li>
+        <li className={active === 2 ? "navbarItem active" : "navbarItem"}><a href="/projects"> <AiFillSchedule /> Projects</a></li>
+        <li className={active === 3 ? "navbarItem active" : "navbarItem"}><a href="/awards"> <BsAwardFill /> Awards</a></li>
     </ul>
   );
 }
