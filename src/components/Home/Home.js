@@ -1,12 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import './Home.css'
 
+import {
+    ImCalendar,
+    ImBook,
+    ImLocation2,
+} from 'react-icons/im'
+
+import educationsData from '../../data/educations.json'
 import skillsData from '../../data/skills.json'
 
 // TODO: Search for a better image as the background image
 // TODO: Add contact info
 // TODO: Add academic background
-// TODO: Add languages
 // TODO: Download resume
 
 const INITIAL_NUMBER_OF_SKILLS_TO_SHOW = 6;
@@ -43,28 +49,40 @@ export default function Home({ setActive }) {
         <div id="homePageWrapper" className="pageWrapper">
             <div className="introPicture">
                 <div className="introText">
-                    <p>Hello! I am</p>
+                    <h5>Hello! I am</h5>
                     <h1>HENG KIAT</h1>
                 </div>
             </div>
-            <div className="educationHeader">
-                <h1>Education Background</h1>
-            </div>
-            <div className="educations">
-                <div className="education">
-                    <div className="educationTitle">
-                        Title
-                    </div>
-                    <div className="educationInstitute">
-                        School
-                    </div>
-                    <div className="educationDate">
-                        Date
-                    </div>
-                    <div className="educationDescription">
-                        Description
-                    </div>
+            <div className="educationBlock">
+                <div className="educationHeader">
+                    <h1>My Educational Background</h1>
                 </div>
+                <ul className="educations">
+                    {educationsData.map((education, _) =>
+                        <li className="education">
+                            <div className="educationImageContainer">
+                                <img className="educationImage" src={education.imageUrl}></img>
+                            </div>
+                            <div className="educationContent">
+                                <div className="educationInstitute">
+                                    {education.institute}
+                                </div>
+                                <div className="educationTitle">
+                                    <ImBook />  {education.title}
+                                </div>
+                                <div className="educationDate">
+                                    <ImCalendar /> {education.date}
+                                </div>
+                                <div className="educationLocation">
+                                    <ImLocation2 /> {education.location}
+                                </div>
+                                <div className="educationDescription">
+                                    {education.description}
+                                </div>
+                            </div>
+                        </li>
+                    )}
+                </ul>
             </div>
             <div className="skillsBlock">
                 <div className="skillsHeader">

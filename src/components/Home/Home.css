@@ -2,9 +2,6 @@
     min-height: 100%;
 }
 
-#homePageWrapper {
-    padding-bottom: 100px;
-}
 
 /* My picture and introduction */
 .introPicture {
@@ -25,7 +22,7 @@
 }
 
 
-.introText p {
+.introText h5 {
     font-style: italic;
     margin: 0 0 20px 0;
     font-size: 24px;
@@ -38,14 +35,68 @@
 }
 
 /* My education background */
-.educationHeader {
+.educationBlock {
+    margin: 100px;
+}
 
+.educationHeader {
+    margin-bottom: 50px;
     text-align: center;
-    margin: 70px 70px 30px 70px;
 }
 
 .educations {
-    margin: 0 70px;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.educationImageContainer {
+    text-align: center;
+}
+
+.educationImage {
+    height: 200px;
+    width: auto;
+}
+
+.educationContent {
+    text-align: center;
+}
+
+.educationInstitute {
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.educationContent svg {
+    vertical-align: text-top;
+    margin-right: 5px;
+}
+
+.educationTitle, .educationDate, .educationLocation {
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+}
+
+.educationDescription {
+    padding: 20px 10px 10px 10px;
+    font-size: 16px;
+    color: rgb(50, 50, 50);
+}
+
+@media(min-width: 1000px) {
+    .education {
+        display: flex;
+    }
+    
+    .educationImageContainer {
+        /* width: 30%; */
+        margin-right: 20px;
+    }
+
+    .educationContent {
+        text-align: left;
+    }
 }
 
 /* My skills */
@@ -65,12 +116,16 @@
     justify-content: space-evenly;
 
     list-style-type: none;
+    padding: 0;
 }
 
 .skill {
     margin: 0 30px;
     height: 400px;
-    width: 300px;animation: fadeIn linear 1s;
+    min-width: 300px;
+    width: 300px;
+    
+    animation: fadeIn linear 1s;
     -webkit-animation: fadeIn linear 1s;
     -moz-animation: fadeIn linear 1s;
     -o-animation: fadeIn linear 1s;
