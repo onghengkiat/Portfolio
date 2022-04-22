@@ -2,34 +2,164 @@
     min-height: 100%;
 }
 
-#helloBlock {
-    position: relative;
-    height: 100vh;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('/public/mypic.jpg');
+#homePageWrapper {
+    padding-bottom: 100px;
 }
 
-.rightBottom {
-    margin: 0;
-    position: absolute;
-    bottom: 10%;
-    right: 10%;
+/* My picture and introduction */
+.introPicture {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/mypic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .introText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    text-align: right;  
 }
 
 
-#helloText {
+.introText p {
     font-style: italic;
-    font-size: 200%;
+    margin: 0 0 20px 0;
+    font-size: 24px;
 }
 
-#myName {
+.introText h1 {
     font-weight: bolder;
-    font-size: 500%;
+    font-size: 50px;
+    margin: 0;
+}
+
+/* My education background */
+.educationHeader {
+
+    text-align: center;
+    margin: 70px 70px 30px 70px;
+}
+
+.educations {
+    margin: 0 70px;
+}
+
+/* My skills */
+.skillsBlock {
+    background: linear-gradient(to bottom, #011936 30%, #cdcdcd 100%);
+    padding: 50px 100px 100px 100px;
+}
+
+.skillsHeader {
+    text-align: center;
+    color: rgb(225, 225, 225);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    list-style-type: none;
+}
+
+.skill {
+    margin: 0 30px;
+    height: 400px;
+    width: 300px;animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.skillPictureContainer {
+    background-color: #F1F4FFFF;
+    box-shadow: 0 -4px 8px 0 rgba(225, 225, 225, 0.5), 0 -6px 20px 0 rgba(225, 225, 225, 0.5);
+    height: 200px;
+    z-index: 5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100px);
+    transition: 0.5s;
+}
+
+.skill:hover .skillPictureContainer, .skill:hover .skillContent {
+    transform: translateY(0);
+}
+
+.skillPicture {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 100px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.skillContent {
+    transition: 0.5s;
+    transform: translateY(-100px);
+    box-shadow: 0 -4px 8px 0 rgba(225, 225, 225, 0.5), 0 -6px 20px 0 rgba(225, 225, 225, 0.5);
+    background: white;
+
+    height: 160px;
+    padding: 20px;
+
+    color: #414141;
+    text-align: center;
+}
+
+.skillName {
+    padding: 0;
+    margin: 0;
+}
+
+.skillsButtonBlock {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.viewMoreSkillButton {
+    background-color:#F1F4FFFF;
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+    text-align: center;
+
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgb(225, 225, 225);
+
+    border: none;
+    border-radius: 10px;
 }

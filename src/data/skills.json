@@ -1,0 +1,68 @@
+[
+    {
+        "name": "CSS",
+        "imageUrl": "css.png",
+        "level": "Beginner",
+        "description": "I have learnt about the basic styling of CSS such as defining the layout of the pages, performing basic animations and making responsive pages. I also explored and have some basic understandings about Bootstrap."
+    },
+    {
+        "name": "Javascript",
+        "imageUrl": "javascript.png",
+        "level": "Intermediate",
+        "description": "I have learnt about the basic syntax of Javascript such as implementing conditional logics and interacting with the components. I also know the React library and used it to develop several websites including this website."
+    },
+    {
+        "name": "HTML",
+        "imageUrl": "html.png",
+        "level": "Intermediate",
+        "description": "I have gone through the basic html tags that will be used and built several websites with it."
+    },
+    {
+        "name": "Docker",
+        "imageUrl": "docker.png",
+        "level": "Intermediate",
+        "description": "I know the basic syntax of writing a docker file such as mapping the port of containers to server, defining docker file to run the react and flask applications. I also learnt how to run multiple docker containers by using docker compose."
+    },
+    {
+        "name": "Nginx",
+        "imageUrl": "nginx.png",
+        "level": "Beginner",
+        "description": "I have a little bit of experiences in using Nginx and built a load balancer for a single production server before."
+    },
+    {
+        "name": "PostgreSQL",
+        "imageUrl": "postgresql.png",
+        "level": "Intermediate",
+        "description": "I have been managing a PostgreSQL database for a production server. I knew the basic syntax of PostgreSQL such as HAVING and INNER JOIN. I also have some knowledge about DBMS such as normalization and ERD diagram."
+    },
+    {
+        "name": "Python",
+        "imageUrl": "python.png",
+        "level": "Intermediate",
+        "description": "I have learnt about the basic syntax and data structures in Python, implemented backend APIs for a production website by using Flask and conducted some of the mini data science projects by using Python."
+    },
+    {
+        "name": "Java",
+        "imageUrl": "java.png",
+        "level": "Intermediate",
+        "description": "I have the knowledge about the basic syntax and data structures in Java. I also have been using the JavaFX to build the GUI and JDBC driver to connect a MySQL database for the assignments of the courses in my university."
+    },
+    {
+        "name": "C++",
+        "imageUrl": "C++.png",
+        "level": "Beginner",
+        "description": "I have the basic understandings of C++ such as pointers, data structure and conditional logics. I have been using it to solve some of the competitive programming questions on Leetcode."
+    },
+    {
+        "name": "Golang",
+        "imageUrl": "golang.png",
+        "level": "Beginner",
+        "description": "I have about learnt the basic syntax of Golang such as defining data structure and implementing conditional logics. I also once built the backend of the chat module with socket by using it."
+    },
+    {
+        "name": "R",
+        "imageUrl": "R.png",
+        "level": "Beginner",
+        "description": "I have the basic understandings about R and built a shiny webapp with it before."
+    }
+]
