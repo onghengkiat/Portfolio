@@ -11,7 +11,7 @@ This is the repository storing the codes of my portfolio website that shows up s
 The website is hosted on <a class="font-weight-bolder" href="https://onghengkiat.herokuapp.com/">here</a>.
 
 ## Developer Guide
-
+---
 ### Testing on localhost by running:
 
         npm run start
