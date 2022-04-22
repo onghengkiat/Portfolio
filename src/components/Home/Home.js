@@ -5,14 +5,16 @@ import {
     ImCalendar,
     ImBook,
     ImLocation2,
+    ImGithub,
+    ImLinkedin,
+    ImMail4,
+    ImWhatsapp,
 } from 'react-icons/im'
 
 import educationsData from '../../data/educations.json'
 import skillsData from '../../data/skills.json'
 
 // TODO: Search for a better image as the background image
-// TODO: Add contact info
-// TODO: Add academic background
 // TODO: Download resume
 
 const INITIAL_NUMBER_OF_SKILLS_TO_SHOW = 6;
@@ -51,6 +53,12 @@ export default function Home({ setActive }) {
                 <div className="introText">
                     <h5>Hello! I am</h5>
                     <h1>HENG KIAT</h1>
+                    <div className="contactInfo">
+                        <a href="https://github.com/onghengkiat" target="_blank" title="Visit my Github"><ImGithub /></a>
+                        <a href="https://www.linkedin.com/in/heng-kiat-ong-838a27185" target="_blank" title="Visit my LinkedIn"><ImLinkedin /></a>
+                        <a href="mailto:onghengkiat105@gmail.com" target="_top" title="Email me at onghengkiat105@gmail.com"><ImMail4 /></a>
+                        <a href="https://api.whatsapp.com/send?phone=601111505490&text=Hello20%Heng20%Kiat" target="_blank" title="WhatsApp me at +6011-11505490"><ImWhatsapp /></a>
+                    </div>
                 </div>
             </div>
             <div className="educationBlock">
