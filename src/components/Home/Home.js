@@ -57,7 +57,7 @@ export default function Home({ setActive }) {
                         <a href="https://github.com/onghengkiat" target="_blank" title="Visit my Github"><ImGithub /></a>
                         <a href="https://www.linkedin.com/in/heng-kiat-ong-838a27185" target="_blank" title="Visit my LinkedIn"><ImLinkedin /></a>
                         <a href="mailto:onghengkiat105@gmail.com" target="_top" title="Email me at onghengkiat105@gmail.com"><ImMail4 /></a>
-                        <a href="https://api.whatsapp.com/send?phone=601111505490&text=Hello20%Heng20%Kiat" target="_blank" title="WhatsApp me at +6011-11505490"><ImWhatsapp /></a>
+                        <a href="https://api.whatsapp.com/send?phone=601111505490" target="_blank" title="WhatsApp me at +6011-11505490"><ImWhatsapp /></a>
                     </div>
                 </div>
             </div>

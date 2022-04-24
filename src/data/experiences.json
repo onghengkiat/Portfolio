@@ -54,7 +54,7 @@
             "Develop a dashboard to monitor the overall equipment effectiveness (OEE) of the assembly lines at the factory",
             "Design the Extract, Transform, Load (ETL) pipeline to extract the data from the machines",
             "Design and manage a normalized database for the application",
-            "Deploy and maintain the server on Amazon Web Service (AWS)"
+            "Deploy the server on Amazon Web Service (AWS) by using EC2"
         ], 
         "skills": [
             "Python", "DynamoDB", "Amazon EC2", "AWS Lambda", "PostgreSQL", "React", "Nginx", "Docker"
