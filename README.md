@@ -16,11 +16,25 @@ The website is hosted on <a class="font-weight-bolder" href="https://onghengkiat
 
         npm run start
 
-### Deploy to heroku:
+### Deploy to Netlify:
 
-        git add .
-        git commit -m "Commit Message Here"
-        git push heroku main
+1) Generate the build folder for production
 
-**Notes: If it shows the error of JavaScript heap out of memory when deploying to heroku, run this command heroku config:set NODE_OPTIONS="--max_old_space_size=2560"**
+        npm run build
+
+2) On the directory of the **build folder**, create a new file called **_redirects** and add the following contents into that file to make the React Router works
+
+        /*    /index.html  200
+
+3) Deploy to draft URL on Netlify
+
+        netlify deploy
+
+4) Enter the path to **build folder** for the **Publish directory**
+
+5) Deploy to production if everything looks good on the draft URL
+
+        netlify deploy --prod
+
+6) Enter the path to **build folder** for the **Publish directory**
 
