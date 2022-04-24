@@ -11,22 +11,22 @@
 .awardsHeader {
     background: transparent;
     color: black;
-    padding: 100px 100px 50px 100px;
+    padding: 100px 0 50px;
     text-align: center;
 }
 
 .awards {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 50px;
 
-    margin: 20px 70px 50px 70px;
+    margin: 0 70px 50px 70px;
     padding: 0px;
     list-style-type: none;
 }
 
 .award {
-    margin: 10px;
+    margin: 10px 0;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
@@ -94,7 +94,7 @@
     }
 
     .awards {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
