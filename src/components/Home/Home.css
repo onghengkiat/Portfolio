@@ -124,7 +124,8 @@
 }
 
 .skill {
-    margin: 0 30px;
+    /* margin: 0 30px; */
+    margin: 30px;
     height: 400px;
     min-width: 300px;
     width: 300px;
@@ -163,20 +164,20 @@
 
 .skillPictureContainer {
     background-color: #F1F4FFFF;
-    box-shadow: 0 -4px 8px 0 rgba(225, 225, 225, 0.5), 0 -6px 20px 0 rgba(225, 225, 225, 0.5);
+    box-shadow: 0 -4px 8px 0 rgba(225, 225, 225, 0.7), 0 -6px 20px 0 rgba(225, 225, 225, 0.7);
     height: 200px;
     z-index: 5;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(100px);
+    /* transform: translateY(100px); */
     transition: 0.5s;
 }
 
-.skill:hover .skillPictureContainer, .skill:hover .skillContent {
+/* .skill:hover .skillPictureContainer, .skill:hover .skillContent {
     transform: translateY(0);
-}
+} */
 
 .skillPicture {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -188,8 +189,8 @@
 
 .skillContent {
     transition: 0.5s;
-    transform: translateY(-100px);
-    box-shadow: 0 -4px 8px 0 rgba(225, 225, 225, 0.5), 0 -6px 20px 0 rgba(225, 225, 225, 0.5);
+    /* transform: translateY(-100px); */
+    box-shadow: 0 -4px 8px 0 rgba(225, 225, 225, 0.7), 0 -6px 20px 0 rgba(225, 225, 225, 0.7);
     background: white;
 
     height: 160px;

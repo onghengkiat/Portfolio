@@ -57,7 +57,7 @@
         "name": "Golang",
         "imageUrl": "homePage/golang.png",
         "level": "Beginner",
-        "description": "I have about learnt the basic syntax of Golang such as defining data structure and implementing conditional logics. I also once built the backend of the chat module with socket by using it."
+        "description": "I have learnt about the basic syntax of Golang such as defining data structure and implementing conditional logics. I also once built the backend of the chat module with socket by using it."
     },
     {
         "name": "R",
