@@ -30,10 +30,7 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-}
-
-.awardImageContainer {
-    
+    min-width: 300px;
 }
 
 .awardImage {
@@ -87,5 +84,17 @@
 @media(min-width: 1000px) {
     .awards {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 600px) {
+    .projectCards {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .awards {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

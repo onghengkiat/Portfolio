@@ -268,3 +268,10 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+@media(max-width: 600px) {
+    .projectCards {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

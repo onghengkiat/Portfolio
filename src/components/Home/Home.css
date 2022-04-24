@@ -50,7 +50,7 @@
 
 /* My education background */
 .educationBlock {
-    margin: 100px;
+    padding: 100px;
 }
 
 .educationHeader {
@@ -60,10 +60,12 @@
 .educations {
     list-style-type: none;
     padding: 20px;
+    margin: 0;
+    min-width: 300px;
 }
 
 .education {
-    margin: 50px 0;
+    margin-bottom: 50px;
 }
 
 .educationImageContainer {
@@ -99,21 +101,6 @@
     padding: 20px 10px 10px 10px;
     font-size: 16px;
     color: rgb(50, 50, 50);
-}
-
-@media(min-width: 1000px) {
-    .education {
-        display: flex;
-    }
-
-    .educationImageContainer {
-        /* width: 30%; */
-        margin-right: 20px;
-    }
-
-    .educationContent {
-        text-align: left;
-    }
 }
 
 /* My skills */
@@ -234,4 +221,25 @@
 
     border: none;
     border-radius: 10px;
+}
+
+@media(max-width: 600px) {
+    .educationBlock {
+        padding: 10px;
+    }
+}
+
+@media(min-width: 1000px) {
+    .education {
+        display: flex;
+    }
+
+    .educationImageContainer {
+        /* width: 30%; */
+        margin-right: 20px;
+    }
+
+    .educationContent {
+        text-align: left;
+    }
 }
