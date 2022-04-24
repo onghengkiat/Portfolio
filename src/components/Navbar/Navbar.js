@@ -14,8 +14,6 @@ import {
   FaBars,
 } from 'react-icons/fa';
 
-// TODO: Add animation to hide the navbar as scrolling down 
-
 export default function Navbar({ active }) {
   const [menuOpened, setMenuOpened] = useState(false);
 

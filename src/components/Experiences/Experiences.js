@@ -10,8 +10,6 @@ import {
 import './Experiences.css'
 import data from '../../data/experiences.json'
 
-// TODO: Add some contents below the My Working Experiences
-
 export default function Experiences({ setActive }) {
     useEffect( () => {
         setActive(1);
@@ -21,7 +19,6 @@ export default function Experiences({ setActive }) {
         <div className="pageWrapper" id="experiencesPageWrapper">
             <header id="experiencesPageHeader">
                 <h1>My Working Experiences</h1>
-                <p></p>
             </header>
 
             <ul className="timeline">
