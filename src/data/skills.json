@@ -18,6 +18,18 @@
         "description": "I have gone through the basic html tags that will be used and built several websites with it."
     },
     {
+        "name": "ReactJS",
+        "imageUrl": "homePage/reactjs.png",
+        "level": "Intermediate",
+        "description": "I have the basic understanding about the functional and class components, props, state and hooks as well as the lifecycle. I have been using ReactJS to build the website for several projects."
+    },
+    {
+        "name": "VueJS",
+        "imageUrl": "homePage/vuejs.png",
+        "level": "Intermediate",
+        "description": "I have the basic understanding about the options API and components API, directive, props, events, and slots as well as the lifecycle hooks. I have been using VueJS to develop an open source repository for the FHIR Starters project."
+    },
+    {
         "name": "Docker",
         "imageUrl": "homePage/docker.png",
         "level": "Intermediate",
@@ -52,6 +64,12 @@
         "imageUrl": "homePage/C++.png",
         "level": "Beginner",
         "description": "I have the basic understandings of C++ such as pointers, data structure and conditional logics. I have been using it to solve some of the competitive programming questions on Leetcode."
+    },
+    {
+        "name": "C#",
+        "imageUrl": "homePage/Csharp.png",
+        "level": "Intermediate",
+        "description": "I have the understandings about the basic syntax of C# and experiences of debugging the windows application that are built by using C#."
     },
     {
         "name": "Golang",
