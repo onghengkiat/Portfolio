@@ -90,19 +90,6 @@
         ]
     },
     {
-        "designation": "Software Engineer Intern",
-        "organization": "Exact",
-        "date": "Aug 2022 - Jan 2023",
-        "descriptions": [
-            "Understand the C# and VB6 coding and analyze the cause of bugs as well as implement the solutions for it",
-            "Fixed more than 80 bugs throughout my internship",
-            "Develop a report for analysis of the customer bug reports by using PowerBI"
-        ], 
-        "skills": [
-            "C#", "VB6", "Azure DevOps", "MS SQL Server"
-        ]
-    },
-    {
         "designation": "Developer",
         "organization": "University of Melbourne",
         "date": "Aug 2022 - Jan 2023",
@@ -113,6 +100,19 @@
         ], 
         "skills": [
             "VueJS", "Vitest", "JSDoc", "Trello"
+        ]
+    },
+    {
+        "designation": "Software Engineer",
+        "organization": "Exact",
+        "date": "Aug 2022 - Now",
+        "descriptions": [
+            "Understand the C# and VB6 coding and analyze the cause of bugs as well as implement the solutions for it",
+            "Fixed more than 80 bugs throughout my internship",
+            "Develop a report for analysis of the customer bug reports by using PowerBI"
+        ], 
+        "skills": [
+            "C#", "VB6", "Azure DevOps", "MS SQL Server"
         ]
     }
 ]
